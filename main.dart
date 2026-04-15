@@ -1,7 +1,7 @@
 
 
 
-//Testing git for practice. Ignore this file.
+//Testing git for practice. Ignore this line.
 
 /*
 // For inheritance practice.
