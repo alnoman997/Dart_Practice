@@ -1,6 +1,13 @@
 // For Polymorphism practice.
 
+import 'polyShape.dart';
+import 'polyRectangle.dart';
+import 'polyTriangle.dart';
 
+void main() {
+  Shape shape = Rectangle();
+  shape.show();
+}
 
 
 /*

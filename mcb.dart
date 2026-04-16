@@ -1,5 +1,6 @@
 // For abstraction practice.
 
+/*
 class Mcb extends Bank {
   @override
   void deposit() {
@@ -11,3 +12,5 @@ class Mcb extends Bank {
     // print("Withdraw");
   }
 }
+
+*/
