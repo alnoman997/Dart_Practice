@@ -5,7 +5,7 @@ import 'polyRectangle.dart';
 import 'polyTriangle.dart';
 
 void main() {
-  Shape shape = Rectangle();
+  Shape shape = Triangle();
   shape.show();
 }
 
