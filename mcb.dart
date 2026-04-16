@@ -1,15 +1,13 @@
 // For abstraction practice.
 
-import 'abstraction.dart';
-
-class Hbl extends Bank {
+class Mcb extends Bank {
   @override
   void deposit() {
-    print("Deposit");
+    // print("Deposit");
   }
 
   @override
   void withdraw() {
-    print("Withdraw");
+    // print("Withdraw");
   }
 }
