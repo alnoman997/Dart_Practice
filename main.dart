@@ -6,7 +6,9 @@ import 'polyTriangle.dart';
 
 void main() {
   Shape shape = Triangle();
+  Shape shape1 = Rectangle();
   shape.show();
+  shape1.show();
 }
 
 
