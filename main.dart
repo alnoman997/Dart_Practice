@@ -1,3 +1,5 @@
+/*
+
 // For Polymorphism practice.
 
 import 'polyShape.dart';
@@ -10,6 +12,8 @@ void main() {
   shape.show();
   shape1.show();
 }
+
+*/
 
 
 /*
