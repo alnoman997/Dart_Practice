@@ -1,7 +1,17 @@
 //Exceptoin Handling practice.
 
-void main() {}
+void main() {
+  // List<int> numbers = [2, 3, 4];
 
+  // print(numbers[3]);
+
+  try {
+    List<int> numbers = [2, 3, 4];
+    print(numbers[3]);
+  } catch (e) {
+    print("Exception occurred: $e");
+  }
+}
 
 
 
