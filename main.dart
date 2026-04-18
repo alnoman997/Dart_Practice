@@ -9,14 +9,16 @@ void main() {
 
   try {
     // File file = File('non_existent_file.txt');
-    File file = File('sample.txt');
+    // File file = File('sample.txt');
 
-    print(file.readAsStringSync());
-    // List<int> numbers = [2, 3, 4];
-    // print(numbers[3]);
+    // print(file.readAsStringSync());
+
+    List<int> numbers = [2, 3, 4];
+    print(numbers[3]);
+  } on PathNotFoundException catch (e) {
+    print("Exception occurred: $e"); // print(e);
   } catch (e) {
-    print("Exception occurred: $e");
-    // print(e);
+    print("An error occurred: $e");
   }
 }
 
