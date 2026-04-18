@@ -1,13 +1,19 @@
 //Exceptoin Handling practice.
 
+import 'dart:io';
+
 void main() {
   // List<int> numbers = [2, 3, 4];
 
   // print(numbers[3]);
 
   try {
-    List<int> numbers = [2, 3, 4];
-    print(numbers[3]);
+    // File file = File('non_existent_file.txt');
+    File file = File('sample.txt');
+
+    print(file.readAsStringSync());
+    // List<int> numbers = [2, 3, 4];
+    // print(numbers[3]);
   } catch (e) {
     print("Exception occurred: $e");
     // print(e);
