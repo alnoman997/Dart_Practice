@@ -10,6 +10,7 @@ void main() {
     print(numbers[3]);
   } catch (e) {
     print("Exception occurred: $e");
+    // print(e);
   }
 }
 
