@@ -1,3 +1,8 @@
+
+
+
+
+/*
 //Exceptoin Handling practice.
 
 import 'dart:io';
@@ -15,12 +20,20 @@ void main() {
 
     List<int> numbers = [2, 3, 4];
     print(numbers[3]);
-  } on PathNotFoundException catch (e) {
-    print("Exception occurred: $e"); // print(e);
-  } catch (e) {
+  }
+  // on PathNotFoundException catch (e) {
+  //   print("Exception occurred: $e"); // print(e);
+  // } on RangeError catch (e) {
+  //   print("Range error: $e");
+  // }
+  catch (e) {
     print("An error occurred: $e");
+  } finally {
+    print("This block will always execute.");
   }
 }
+*/
+
 
 
 
@@ -43,6 +56,7 @@ void main() {
 */
 
 
+
 /*
 // For Abstraction practice.
 
@@ -59,6 +73,7 @@ void main() {
 
 
 //Testing git for practice. Ignore this line.
+
 
 
 /*
@@ -78,6 +93,7 @@ void main() {
 }
 
 */
+
 
 
 
