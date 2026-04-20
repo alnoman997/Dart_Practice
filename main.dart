@@ -8,8 +8,11 @@ void
 fetchData() async //async keyword would be used if we want to use await inside this function.
 {
   print("Fetching data...");
-  String data = await getData();
-  print(data);
+  // String data = await getData();
+  getData().then((data) {
+    print(data);
+  });
+  print("Other operations.");
 
   // Future.delayed(Duration(seconds: 4));
 
