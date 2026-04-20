@@ -4,20 +4,32 @@ void main() {
   fetchData();
 }
 
-void fetchData() async {
+void
+fetchData() async //async keyword would be used if we want to use await inside this function.
+{
   print("Fetching data...");
+  String data = await getData();
+  print(data);
 
   // Future.delayed(Duration(seconds: 4));
 
-  Future.delayed(Duration(seconds: 4)).then((value) {
-    print("Fetched Data");
-  });
+  // Future.delayed(Duration(seconds: 4)).then((value) {
+  //   print("Fetched Data");
+  // });
 
-  print("Other operations.");
+  // print("Other operations.");
 
   // await Future.delayed(Duration(seconds: 4));
   // print("Data fetched successfully.");
 }
+
+Future<String> getData() async {
+  await Future.delayed(Duration(seconds: 4));
+  return "Fetched Data";
+}
+
+
+
 
 
 /*
