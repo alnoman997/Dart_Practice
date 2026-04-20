@@ -9,7 +9,7 @@ fetchData() async //async keyword would be used if we want to use await inside t
 {
   print("Fetching data...");
   // String data = await getData();
-  getData().then((data) {
+  getData().listen((data) {
     print(data);
   });
   print("Other operations.");
@@ -26,10 +26,17 @@ fetchData() async //async keyword would be used if we want to use await inside t
   // print("Data fetched successfully.");
 }
 
-Future<String> getData() async {
-  await Future.delayed(Duration(seconds: 4));
-  return "Fetched Data";
+Stream<int> getData() async* {
+  for (int x = 1; x <= 10; x++) {
+    await Future.delayed(Duration(seconds: 3));
+    yield x;
+  }
 }
+
+// Future<String> getData() async {
+//   await Future.delayed(Duration(seconds: 4));
+//   return "Fetched Data";
+// }
 
 
 
