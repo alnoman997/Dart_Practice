@@ -7,7 +7,11 @@ void main() {
 void fetchData() async {
   print("Fetching data...");
 
-  Future.delayed(Duration(seconds: 4));
+  // Future.delayed(Duration(seconds: 4));
+
+  Future.delayed(Duration(seconds: 4)).then((value) {
+    print("Fetched Data");
+  });
 
   print("Other operations.");
 
