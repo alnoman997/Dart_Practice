@@ -1,7 +1,9 @@
+//Dart overview
 
-
-
-
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];
+  print(numbers[0]);
+}
 
 
 
@@ -21,7 +23,7 @@ fetchData() async //async keyword would be used if we want to use await inside t
     print(data);
   });
   print("Other operations.");
-
+  
   // Future.delayed(Duration(seconds: 4));
 
   // Future.delayed(Duration(seconds: 4)).then((value) {
@@ -111,7 +113,7 @@ void main() {
 
 
 /*
-// For Abstraction practice.
+// For sdsdion practice.
 
 import 'hbl.dart';
 
