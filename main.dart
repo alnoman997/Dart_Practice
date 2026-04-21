@@ -2,7 +2,10 @@
 
 void main() {
   List<int> numbers = [1, 2, 3, 4, 5];
-  print(numbers[0]);
+  // print(numbers[0]);
+
+  Map<String, String> map = {'Name': 'Abdullah', 'city': 'Dhaka'};
+  print(map['Name']);
 }
 
 
