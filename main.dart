@@ -2,12 +2,15 @@
 
 //Exception
 
+import 'customException.dart';
+
 void main() {
   int a = 10;
 
   try {
     if (a > 5) {
-      throw Exception("Value of a is greater than 5");
+      // throw Exception("Value of a is greater than 5");
+      throw CustomException("Exception occured");
     }
   } catch (e) {
     print("An error occurred: $e");
