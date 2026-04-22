@@ -3,13 +3,15 @@
 //Switch case practice.
 
 void main() {
-  int a = 10;
+  int a = 0;
 
   switch (a) {
     case 0:
       print("Zero");
+      break;
     case 2:
       print("One");
+      break;
     default:
       print("Default");
   }
