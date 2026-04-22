@@ -1,7 +1,23 @@
 //Dart overview
 
+//imlplements and mixin practice.
 
+import 'settings.dart';
 
+void main() {
+  App app = App();
+  app.updateClick();
+}
+
+class App with Settings {
+  void updateClick() {
+    update();
+  }
+
+  void deleteClick() {
+    delete();
+  }
+}
 
 
 
