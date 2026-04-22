@@ -1,5 +1,27 @@
 //Dart overview
 
+//If else short form.
+
+void main() {
+  int a = 10;
+  int result = 0;
+
+  if (a > 5) {
+    result = 100;
+  } else {
+    result = 200;
+  }
+  print(result);
+}
+
+
+
+
+
+
+
+/*enum practice.
+
 void main() {
   print(Gender.Male);
   print(Gender.Male.name);
@@ -9,6 +31,9 @@ void main() {
 }
 
 enum Gender { Male, Female, Other }
+
+*/
+
 
 
 
