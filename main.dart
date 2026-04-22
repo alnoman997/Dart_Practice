@@ -1,6 +1,23 @@
 //Dart overview
 
 void main() {
+  print(Gender.Male);
+  print(Gender.Male.name);
+  print(Gender.Male.index);
+  print(Gender.Female.name);
+  print(Gender.Female.index);
+}
+
+enum Gender { Male, Female, Other }
+
+
+
+
+/*   
+// Map practice.
+
+
+void main() {
   List<int> numbers = [1, 2, 3, 4, 5];
   // print(numbers[0]);
 
@@ -11,6 +28,11 @@ void main() {
   print(map['Name']);
   print(map['Age']);
 }
+
+*/
+
+
+
 
 
 
