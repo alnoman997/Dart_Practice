@@ -1,5 +1,27 @@
 //Dart overview
 
+//Switch case practice.
+
+void main() {
+  int a = 10;
+
+  switch (a) {
+    case 0:
+      print("Zero");
+    case 2:
+      print("One");
+    default:
+      print("Default");
+  }
+}
+
+
+
+
+
+
+/*
+
 //If else short form.
 
 void main() {
@@ -18,6 +40,7 @@ void main() {
 
   print(result);
 }
+*/
 
 
 
