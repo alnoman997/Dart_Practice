@@ -6,11 +6,16 @@ void main() {
   int a = 10;
   int result = 0;
 
-  if (a > 5) {
-    result = 100;
-  } else {
-    result = 200;
-  }
+  // if (a > 5) {
+  //   result = 100;
+  // } else {
+  //   result = 200;
+  // }
+
+  // result = (a > 5) ? 100 : 200;  //It will  word without parenthese as well.
+
+  result = a > 5 ? 100 : 200;
+
   print(result);
 }
 
